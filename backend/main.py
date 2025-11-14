@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-origins = ["http://localhost:5173"]
+origins = ["https://bob-app.onrender.com"]
 
 app.add_middleware(CORSMiddleware, 
     allow_origins= origins,
