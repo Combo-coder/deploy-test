@@ -5,7 +5,7 @@ export default function App() {
   const {data, isLoading, isError, error} = useQuery({
     queryKey: ["data"],
     queryFn: async () => {
-      const results = await fetch("http://127.0.0.1:8000")
+      const results = await fetch("https://api-service-ozat.onrender.com")
       const data = await results.json()
       return data
     }
