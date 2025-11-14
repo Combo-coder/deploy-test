@@ -14,4 +14,4 @@ app.add_middleware(CORSMiddleware,
 
 @app.get("/")
 async def home():
-    return {"data" : "Ceci est mon 1er site déployé"}
+    return {"msg" : "*Test Backend FastAPI*: Ceci est mon 1er site déployé"}
