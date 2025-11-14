@@ -1,1 +1,1 @@
-"fastapi[standands]"
+"fastapi[standand]"
