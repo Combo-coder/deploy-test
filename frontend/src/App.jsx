@@ -31,6 +31,7 @@ export default function App() {
   return (
     <>
       <div>
+       {/* créer une page bien designer ici */}
         <h1>
           *Test Frontend React*: Bienvenu sur la page de Bob (Le Combo-Coder)
         </h1>

@@ -1,0 +1,4 @@
+edit to do before pushing changes to github
+
+    frontend online url: "https://bob-app.onrender.com/"
+    backend online url: "https://api-service-ozat.onrender.com"
